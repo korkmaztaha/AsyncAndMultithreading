@@ -196,18 +196,18 @@
 #endregion
 #region Interrupt
 // Thread.Interrupt, bekleme durumundaki bir thread’i uyandırarak ThreadInterruptedException fırlatılmasına neden olur. Bu exception yakalanarak thread’in akışı kontrol edilebilir. Ancak bu yöntem yalnızca blocking durumlarda çalışır ve modern .NET uygulamalarında genellikle CancellationToken tercih edilir çünkü daha güvenli ve kontrol edilebilirdir.
-//Thread thread = new(() =>
-//{
-//    try
-//    {
-//        Thread.Sleep(Timeout.Infinite);
-//    }
-//    catch (ThreadInterruptedException ex)
-//    {
+Thread thread = new(() =>
+{
+    try
+    {
+        Thread.Sleep(Timeout.Infinite);
+    }
+    catch (ThreadInterruptedException ex)
+    {
 
-//    }
-//});
+    }
+});
 
-//thread.Start();
-//thread.Interrupt();
+thread.Start();
+thread.Interrupt();
 #endregion
