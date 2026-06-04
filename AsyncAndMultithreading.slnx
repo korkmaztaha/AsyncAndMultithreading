@@ -1,4 +1,5 @@
 <Solution>
+  <Project Path="Semaphore&amp;SemaphoreSlimTools/Semaphore&amp;SemaphoreSlimTools.csproj" Id="15608a8a-f9bf-4493-b650-c98f29800c61" />
   <Project Path="ThreadClass/ThreadClass.csproj" Id="dcdc05f0-c730-4bd2-9b85-33058f1d7752" />
   <Project Path="ThreadSynchronization&amp;BlockingSynchronization/ThreadSynchronization&amp;BlockingSynchronization.csproj" Id="6f1bab3d-d174-4a67-b442-140537c5e407" />
 </Solution>
