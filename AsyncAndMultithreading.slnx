@@ -1,4 +1,5 @@
 <Solution>
+  <Project Path="InterlockedClass&amp;MemoryBarrier/InterlockedClass&amp;MemoryBarrier.csproj" Id="e45f60f9-d4ab-484e-a1cb-6c6d079d59eb" />
   <Project Path="NonBlockingSync&amp;VolatileKeyword/NonBlockingSync&amp;VolatileKeyword.csproj" Id="66cc1516-34df-439d-8365-15ce22fed17c" />
   <Project Path="Semaphore&amp;SemaphoreSlimTools/Semaphore&amp;SemaphoreSlimTools.csproj" Id="15608a8a-f9bf-4493-b650-c98f29800c61" />
   <Project Path="ThreadClass/ThreadClass.csproj" Id="dcdc05f0-c730-4bd2-9b85-33058f1d7752" />
