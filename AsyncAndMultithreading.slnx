@@ -7,4 +7,5 @@
   <Project Path="SpinningSynch.SpinLock&amp;SpinWait/SpinningSynch.SpinLock&amp;SpinWait.csproj" Id="5768b6cc-3cd8-455a-98b2-0cb152876c30" />
   <Project Path="ThreadClass/ThreadClass.csproj" Id="dcdc05f0-c730-4bd2-9b85-33058f1d7752" />
   <Project Path="ThreadSynchronization&amp;BlockingSynchronization/ThreadSynchronization&amp;BlockingSynchronization.csproj" Id="6f1bab3d-d174-4a67-b442-140537c5e407" />
+  <Project Path="WaitHandles&amp;Thread Pool/WaitHandles&amp;Thread Pool.csproj" Id="38c4d9a0-0d70-40ae-adf5-312a29ef8634" />
 </Solution>

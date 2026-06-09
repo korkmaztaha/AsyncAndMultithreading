@@ -85,37 +85,37 @@
 #endregion
 #region CountdownEvent
 // 3 adet threadin işlemini tamamlamasını bekliyoruz. CountdownEvent, belirli bir sayıda sinyal bekleyen bir senkronizasyon mekanizmasıdır. CountdownEvent, başlangıçta belirli bir sayıda sinyal bekler ve her sinyal geldiğinde sayacı azaltır. Sayaç sıfıra ulaştığında, CountdownEvent sinyali verir ve bekleyen thread'ler serbest bırakılır. Bu yapı, belirli bir sayıda işlemin tamamlanmasını beklemek için kullanışlıdır.
-//CountdownEvent countdownEvent = new(3);
+CountdownEvent countdownEvent = new(3);
 
-//Thread thread1 = new(() =>
-//{
-//    Console.WriteLine("Thread1");
-//    Thread.Sleep(1000);
-//    countdownEvent.Signal();
-//});
-//Thread thread2 = new(() =>
-//{
-//    Console.WriteLine("Thread2");
-//    Thread.Sleep(5500);
-//    countdownEvent.Signal();
-//});
-//Thread thread3 = new(() =>
-//{
-//    Console.WriteLine("Thread3");
-//    Thread.Sleep(800);
-//    countdownEvent.Signal();
-//});
-//Thread thread4 = new(() =>
-//{
-//    countdownEvent.Wait();
-//    Console.WriteLine("Thread4");
-//});
+Thread thread1 = new(() =>
+{
+    Console.WriteLine("Thread1");
+    Thread.Sleep(1000);
+    countdownEvent.Signal();
+});
+Thread thread2 = new(() =>
+{
+    Console.WriteLine("Thread2");
+    Thread.Sleep(5500);
+    countdownEvent.Signal();
+});
+Thread thread3 = new(() =>
+{
+    Console.WriteLine("Thread3");
+    Thread.Sleep(800);
+    countdownEvent.Signal();
+});
+Thread thread4 = new(() =>
+{
+    countdownEvent.Wait();
+    Console.WriteLine("Thread4");
+});
 
-//thread1.Start();
-//thread2.Start();
-//thread3.Start();
-//thread4.Start();
+thread1.Start();
+thread2.Start();
+thread3.Start();
+thread4.Start();
 
-//countdownEvent.Wait();
-//Console.WriteLine("İşlem devam ediyor...");
+countdownEvent.Wait();
+Console.WriteLine("İşlem devam ediyor...");
 #endregion
