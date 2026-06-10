@@ -7,6 +7,7 @@
   <Project Path="SignallingManualResetEventAutoResetEventCountdownEvent/SignallingManualResetEventAutoResetEventCountdownEvent.csproj" Id="8626fe4d-433e-49a5-93ef-66f9e86eb580" />
   <Project Path="SpinningSynch.SpinLock&amp;SpinWait/SpinningSynch.SpinLock&amp;SpinWait.csproj" Id="5768b6cc-3cd8-455a-98b2-0cb152876c30" />
   <Project Path="ThreadClass/ThreadClass.csproj" Id="dcdc05f0-c730-4bd2-9b85-33058f1d7752" />
+  <Project Path="ThreadLocalStorage(TLS)-ThreadStatic&amp;ThreadLocal/ThreadLocalStorage(TLS)-ThreadStatic&amp;ThreadLocal.csproj" Id="fa628c6d-607f-4bcf-948c-b89afd9af717" />
   <Project Path="ThreadSynchronization&amp;BlockingSynchronization/ThreadSynchronization&amp;BlockingSynchronization.csproj" Id="6f1bab3d-d174-4a67-b442-140537c5e407" />
   <Project Path="WaitHandles&amp;Thread Pool/WaitHandles&amp;Thread Pool.csproj" Id="38c4d9a0-0d70-40ae-adf5-312a29ef8634" />
 </Solution>
