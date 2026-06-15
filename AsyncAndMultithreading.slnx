@@ -1,4 +1,5 @@
 <Solution>
+  <Project Path="async&amp;awaitKeywords/async&amp;awaitKeywords.csproj" Id="aa272a28-f6eb-4576-99a0-991dee859e8c" />
   <Project Path="BarrierClass/BarrierClass.csproj" Id="3ccc5c09-33d8-4021-8d99-00e5a75544df" />
   <Project Path="InterlockedClass&amp;MemoryBarrier/InterlockedClass&amp;MemoryBarrier.csproj" Id="e45f60f9-d4ab-484e-a1cb-6c6d079d59eb" />
   <Project Path="Multi-ThreadedTimers&amp;Single-ThreadedTimers/Multi-ThreadedTimers&amp;Single-ThreadedTimers.csproj" Id="e8fd061a-ce32-41ed-acf3-1924e664c3ce" />
