@@ -1,7 +1,9 @@
 <Solution>
   <Project Path="async&amp;awaitKeywords/async&amp;awaitKeywords.csproj" Id="aa272a28-f6eb-4576-99a0-991dee859e8c" />
   <Project Path="BarrierClass/BarrierClass.csproj" Id="3ccc5c09-33d8-4021-8d99-00e5a75544df" />
+  <Project Path="ConcurrentCollections/ConcurrentCollections.csproj" Id="0351b06c-ed48-4f28-ab1b-5e630d0184b6" />
   <Project Path="ConfigureAwait&amp;CancellationTokenSource&amp;Task-ValueTask/ConfigureAwait&amp;CancellationTokenSource&amp;Task-ValueTask.csproj" Id="af640151-798b-4bea-8b8d-0e8d9f71b090" />
+  <Project Path="IAsyncEnumerable&amp;IAsyncEnumerator-Asenkron foreach/IAsyncEnumerable&amp;IAsyncEnumerator-Asenkron foreach.csproj" Id="587c9980-558a-425c-aee4-82f56e21bdb0" />
   <Project Path="InterlockedClass&amp;MemoryBarrier/InterlockedClass&amp;MemoryBarrier.csproj" Id="e45f60f9-d4ab-484e-a1cb-6c6d079d59eb" />
   <Project Path="Multi-ThreadedTimers&amp;Single-ThreadedTimers/Multi-ThreadedTimers&amp;Single-ThreadedTimers.csproj" Id="e8fd061a-ce32-41ed-acf3-1924e664c3ce" />
   <Project Path="NonBlockingSync&amp;VolatileKeyword/NonBlockingSync&amp;VolatileKeyword.csproj" Id="66cc1516-34df-439d-8365-15ce22fed17c" />
